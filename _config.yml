@@ -5,7 +5,8 @@ description         : >-
 baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-
+paginate: 5
+paginate_path: "/:num/"
 
 ### Plugins ###
 plugins:
@@ -87,7 +88,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                   # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
