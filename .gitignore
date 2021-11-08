@@ -12,3 +12,6 @@ Gemfile.lock
 *.log
 .vs/slnx.sqlite
 .vs/slnx.sqlite
+.vs/slnx.sqlite
+.vs/slnx.sqlite-journal
+.vs/slnx.sqlite
